@@ -1,0 +1,12 @@
+<template>
+  <lightning-card>
+    <!-- formulario para criar funcionarios -->
+      <lightning-record-form
+          object-api-name={objectApiName}
+          fields={fields}
+          onsuccess={handleSuccess}
+         >
+      </lightning-record-form>
+      <c-employee-l-ist class="slds-hide"></c-employee-l-ist>
+  </lightning-card>
+</template>
